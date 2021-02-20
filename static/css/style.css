@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Ubuntu, sans-serif;
+  font-family: 'Trebuchet MS';
 }
 
 html,
@@ -98,10 +98,13 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/wallpaper-2");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
+  color: #FFF;
+  background-color: #232323;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
 }
 
 .hero h1 {
