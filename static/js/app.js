@@ -3,16 +3,21 @@ var tableData = data;
 console.log(data);
 
 // YOUR CODE HERE!
+//create reference of table body
 var tbody = d3.select("tbody");
+//create reference for the filter button
 var button =d3.select("#filter-btn")
-var inputDate = d3.select("#datetime")
-var inputCity = d3.select("#city")
-console.log(data);
 
+//create variable for the date input into the filter field
+var inputDate = d3.select("#datetime")
+//log data to console
+console.log(data);
+//write data to console for each item in data object
 data.forEach(function(logdata){
     console.log(logdata);
 });
 
+//create a function to append new data to table rows
 data.forEach(function(logdata){
     console.log(logdata);
     var row = tbody.append("tr");
